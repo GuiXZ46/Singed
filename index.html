@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,700,700i,900,900i|Marcellus:400,400i,700,700i,900,900i">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+    <title> Como jogar de singed</title>
+    <link rel="icon" type="image/png" href="./imagens/ico.png" />
+    
+
+   <!--estilo usado na pagina--> <style>
+    :root { --global-buttonBackgroundColor: #161317; }
+    :root { --global-buttonBorderRadius: 0px; }
+    :root { --global-buttonBorderSize: 1px; }
+    :root { --global-buttonBorderStyle: solid; }
+    :root { --global-buttonBorderColor: transparent; }
+    :root { --global-buttonBoxShadowColor: nullpx; }
+    :root { --global-buttonBoxShadowHOffset: 3px; }
+    :root { --global-buttonBoxShadowVOffset: 3px; }
+    :root { --global-buttonBoxShadowBlur: 6px; }
+    :root { --global-buttonBoxShadowSpread: 3px; }
+    :root { --global-buttonColor: #ffffff; }
+    :root { --global-buttonFontSize: 21px; }
+    :root { --global-buttonIsFullWidth: falsepx; }
+    :root { --global-buttonVerticalPadding: 18px; }
+    :root { --global-buttonHorizontalPadding: 18px; }
+    :root { --global-backgroundColor: #ffffff; }
+    :root { --global-contentBackgroundColor: nullpx; }
+    :root { --global-baseSpacing: 16px; }
+    :root { --global-dividerBackgroundColor: transparent; }
+    :root { --global-dividerColor: #dedede; }
+    :root { --global-dividerHeight: 2px; }
+    :root { --global-dividerStyle: solid; }
+    :root { --global-dividerTopSpacing: 20px; }
+    :root { --global-dividerBottomSpacing: 20px; }
+    :root { --global-headingTextColor: #161317; }
+    :root { --global-linkTextColor: #161317; }
+    :root { --global-paragraphTextColor: #161317; }
+    :root { --global-baseFontSize: 21px; }
+    :root { --global-maxWidth: 1360px; }
+    :root { --global-inputBackgroundColor: transparent; }
+    :root { --global-inputBorderRadius: 4px; }
+    :root { --global-inputBorderSize: 2px; }
+    :root { --global-inputBorderStyle: solid; }
+    :root { --global-inputBorderColor: #d0d0d0; }
+    :root { --global-inputColor: #161317; }
+    :root { --global-inputWidth: 60%; }
+    :root { --global-animationType: none; }
+    :root { --global-animationDuration: 0.9s; }
+    :root { --global-animationEasing: cubic-bezier(0.41, 0.41, 0.07, 1); }
+    :root { --global-animationStagger: off; }
+    :root { --global-buttonHoveredBackgroundColor: #3e3641; }
+    :root { --global-secondaryButtonBackgroundColor: transparent; }
+    :root { --global-secondaryButtonBorderColor: #161317; }
+    :root { --global-secondaryButtonColor: #161317; }
+    :root { --global-buttonTransitionProperty: background-color; }
+    :root { --global-buttonTextDecoration: undefined; }
+    :root { --global-secondaryButtonTextDecoration: undefined; }
+    :root { --global-spacing: 1; }
+    :root { --global-headingFontWeight: 400; }
+    :root { --global-buttonFontWeight: 400; }
+    :root { --global-headingFontFamily: 'Marcellus', serif; }
+    :root { --global-paragraphFontFamily: 'DM Sans', sans-serif; }
+    :root { --global-buttonFontFamily: 'DM Sans', sans-serif; }
+    body { background-color: #ffffff; }
+    :root { --global-typeScale: 1.333; }
+    .element	{ position:fixed; top:0%; right:0%; }
+    .button {
+  background-color: #6495ED; 
+  border: yes;
+  border-color: #000000;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 2px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+ }
+    
+    </style>
+    <link rel="stylesheet" href="https://eep.io/mc-release/1.1.12d10d170ea6367f6c4b36527f925bfd6e967169d/js-src/websites-runtime.15efe801e6a74cb29d9e.css"><!--preset de style-->
+    </style></head>
+
+
+
+
+    <body class="mceRuntime"><!--logo upada na web-->
+    <div class="mceText text-align-left; element">
+        <h3><button style="background-color:#DCDCDC; border:none;" >Navegação </button></h3><br> 
+        <button class="button button1"><a href="index.html">Inicio</a></button><br>
+        <button class="button button1"><a href="index.html#rotas">Lane Fase</a></button><br>
+        <button class="button button1"><a href="index.html#laneproxy">Lane de Proxy</a></button><br>
+        <button class="button button1"><a href="index.html#quando">Quando fazer Proxy</a></button><br><br>
+
+        <h4>
+        <button style="background-color:#DCDCDC; border:none;">
+        <a href="imagens/andar.mp4  ">Just Keep Walking </button></a></h4><br> 
+    </div>
+
+    
+    <div class="mceColumn justify-items-center justify-self-center"
+     style="--mceColumn-paddingTop:0;
+     --mceColumn-paddingRight:0;
+     --mceColumn-paddingBottom:0;
+     --mceColumn-paddingLeft:0;
+     --mceColumn-backgroundPosition:center
+     ;--mceColumn-backgroundSize:cover;
+     --mceColumn-backgroundRepeat:no-repeat;
+     --mceColumn-backgroundImage:url(imagens\you!.png);
+    --mceColumn-backgroundImage-desktop:url(https://dim.mcusercontent.com/cs/1b446212ecbb2c4f7ca692b40/images/e1b22093-9a37-9bf4-c10e-55d81d92d3a1.png?w=1800);
+    --mceColumn-backgroundImage-desktop-2x:url(https://dim.mcusercontent.com/cs/1b446212ecbb2c4f7ca692b40/images/e1b22093-9a37-9bf4-c10e-55d81d92d3a1.png?w=1800)">
+ 
+        
+    <div class="mceRow mceRow--noSpacing mceRow--adjustMargin mceRow--maxWidth mceRow--singleColumn-mobile mceRow--singleColumn-tablet">
+    
+    
+    <div class="mceColumn justify-items-center justify-self-center" 
+    style="--mceColumn-paddingTop:20;
+    --mceColumn-paddingBottom:20;
+    --mceColumn-paddingTop-mobile:3;
+    --mceColumn-paddingRight-mobile:0.5;
+    --mceColumn-paddingBottom-mobile:3;
+    --mceColumn-paddingLeft-mobile:0.5;
+    --mceColumn-paddingTop-tablet:10;
+    --mceColumn-paddingBottom-tablet:10"><!--alinhamento-->
+    
+
+
+    <div class="mceText text-align-center">
+    <h1 class="mceText--bold"></h1></div></div></div></div></div>
+
+    
+    
+    <div class="mceColumn" 
+    style="--mceColumn-paddingTop:0;
+    --mceColumn-paddingRight:0;
+    --mceColumn-paddingBottom:0;
+    --mceColumn-paddingLeft:0;
+    --mceColumn-textAlign:center">
+    
+    
+    <div class="mceText text-align-center">
+    <h2>Como subir de elo jogando de Singed</h2></div>
+
+
+    
+    <div class="mceText text-align-center">
+        <p>Nunca mais morra em matchup contra Fiora.</p><p></p></div></div></div></div></div>
+        <div data-page-content="true" id="section_218509f0aeb9ff5aaa96ad4cb09be30d" 
+        class="mceRow mceRow--isFullBleed mceRow--noSpacing mceRow--adjustMargin mceRow--singleColumn-mobile mceRow--singleColumn-tablet">
+        
+        
+       <!--area img com link-->  <div class="mceColumn justify-items-center justify-self-center" 
+        style="--mceColumn-spacing:0;
+        --mceColumn-paddingTop:0;
+        --mceColumn-paddingRight:0;
+        --mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0">
+
+
+        <div class="mceRow mceRow--maxWidth mceRow--singleColumn-mobile mceRow--singleColumn-tablet"
+         style="--mceRow-spacing:3;
+         --mceRow-paddingTop:3;
+         --mceRow-paddingRight:3;
+         --mceRow-paddingBottom:3;
+         --mceRow-paddingLeft:3">
+
+
+        <div class="mceColumn justify-items-center-mobile justify-self-center-mobile" 
+        style="--mceColumn-paddingTop:0;
+        --mceColumn-paddingRight:0;
+        --mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0;
+        --mceColumn-span:6;
+        --mceColumn-alignSelf:center">
+            
+
+        <div class="mceImage" style="--mceImage-width:762px"><!--singed img resistencia-->
+        <picture>
+        
+        
+            <img alt="" src="imagens\singas2.jpg" role="presentation">
+        </picture></div></div>
+        
+        
+        
+        <div class="mceColumn justify-items-start justify-self-start justify-items-center-mobile justify-self-center-mobile" 
+        style="--mceColumn-paddingTop:0;
+        --mceColumn-paddingRight:0;
+        --mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0;
+        --mceColumn-span:6;
+        --mceColumn-alignSelf:center;
+        --mceColumn-paddingTop-mobile:1.6;
+        --mceColumn-paddingTop-tablet:1.6;
+        --mceColumn-alignSelf-tablet:flex-start">
+
+        <div class="mceText text-align-left">
+        <h2>A arte do Proxy</h2><p>Deixe seu inimigo sem entender nada, com waves nunca aparecendo no Top</p><p></p></div>
+        
+        
+        
+        <div class="mceButton"><a href=".\pagina2.html" target="_parent"><button class="mceButton">Saiba mais</button></a></div></div></div></div></div>
+        
+        
+        
+        <div data-page-content="true" id=""
+        class="mceRow mceRow--isFullBleed mceRow--noSpacing mceRow--adjustMargin mceRow--singleColumn-mobile mceRow--singleColumn-tablet">
+        
+        <div class="mceColumn justify-items-center justify-self-center" 
+        style="--mceColumn-spacing:0;
+        --mceColumn-paddingTop:0;
+        --mceColumn-paddingRight:0;
+        --mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0">
+
+        <div class="mceRow mceRow--maxWidth mceRow--singleColumn-mobile mceRow--singleColumn-tablet" 
+        style="--mceRow-spacing:3;
+        --mceRow-paddingTop:4.5;
+        --mceRow-paddingRight:3;
+        --mceRow-paddingBottom:4.5;
+        --mceRow-paddingLeft:3">
+
+        <div class="mceColumn" 
+        style="--mceColumn-paddingTop:0;
+        --mceColumn-paddingRight:0;
+        --mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0;
+        --mceColumn-gridColumnStart:3;
+        --mceColumn-span:8">
+
+        <div class="mceText text-align-center">
+            <h2>Batido, não misturado</h2><p>Algumas Curiosidades sobre o Quimico louco
+            </p></div></div>
+        
+        
+        <div class="mceColumn" 
+        style="--mceColumn-paddingTop:0;
+        --mceColumn-paddingRight:0;
+        --mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0;
+        --mceColumn-span:4;
+        --mceColumn-alignSelf:center">
+        
+        
+        <div class="mceImage" style="--mceImage-width:1215px">
+            
+        <picture>
+
+       <!--link bio singed--><a href="https://universe.leagueoflegends.com/pt_BR/story/champion/singed/"> 
+
+        <img alt="" src="imagens\singas4.jpg" 
+        role="presentation">
+        </picture></div></div></a>
+        
+        
+        
+        
+        <div class="mceColumn" 
+        style="--mceColumn-paddingTop:0;
+        --mceColumn-paddingRight:0;
+        --mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0;
+        --mceColumn-span:4;
+        --mceColumn-alignSelf:center">
+
+        <div class="mceImage" style="--mceImage-width:1215px">
+        <picture><source srcset="">
+        <source srcset=>
+        
+
+        <a href="https://universe.leagueoflegends.com/pt_BR/champion/singed/"><img alt="" src="imagens\singas5.jpg" role="presentation">
+        </picture></div></div></a>
+            
+           
+        
+        <div class="mceColumn" 
+        style="--mceColumn-paddingTop:0;
+        --mceColumn-paddingRight:0;
+        --mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0;
+        --mceColumn-span:4;
+        --mceColumn-alignSelf:center">
+        
+        
+        <div class="mceImage" 
+        style="--mceImage-width:1215px">
+
+        <picture>
+      
+            <a href="imagens/lore.mp4"><img alt="" src="imagens\singas6.jpg" role="presentation">
+        </picture></div></div></div></div></div></a>
+        
+        <!--div's estrutura da pagina--><div data-page-content="true" id="" 
+        class="mceRow mceRow--isFullBleed mceRow--noSpacing mceRow--adjustMargin mceRow--singleColumn-mobile mceRow--singleColumn-tablet" 
+        style="--mceRow-background:#161317;
+        --global-backgroundColor:#161317;
+        --global-paragraphTextColor:#ded7f8;
+        --global-headingTextColor:#ded7f8;
+        --global-buttonColor:#161317;
+        --global-buttonBackgroundColor:#ded7f8;
+        --global-buttonHoveredBackgroundColor:#beb0f1;
+        --global-inputColor:#ded7f8;
+        --global-linkTextColor:#ded7f8;
+        --global-buttonBorderColor:transparent;
+        --global-secondaryButtonBackgroundColor:transparent;
+        --global-secondaryButtonBorderColor:#ded7f8;
+        --global-secondaryButtonColor:#ded7f8
+        ;--global-buttonTransitionProperty:background-color">
+        
+        <div class="mceColumn justify-items-center justify-self-center" 
+        style="--mceColumn-spacing:0;
+        --mceColumn-paddingTop:0
+        ;--mceColumn-paddingRight:0;
+        --mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0">
+        
+        <div class="mceRow mceRow--adjustMargin mceRow--maxWidth mceRow--singleColumn-tablet mceRow--singleColumn-mobile"
+        style="--mceRow-spacing:3;
+        --mceRow-paddingTop:6;
+        --mceRow-paddingRight:3;
+        --mceRow-paddingBottom:6;
+        --mceRow-paddingLeft:3;
+        --mceRow-paddingTop-laptop:5.25;
+        --mceRow-paddingBottom-laptop:5.25
+        ;--mceRow-paddingTop-tablet:3;
+        --mceRow-paddingBottom-tablet:3;
+        --mceRow-paddingTop-mobile:1.5;
+        --mceRow-paddingBottom-mobile:1.5">
+        
+        <div class="mceColumn justify-items-center justify-self-center" 
+        style="--mceColumn-paddingTop:0;
+        --mceColumn-paddingRight:0;
+        --mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0;
+        --mceColumn-gridColumnStart:4;
+        --mceColumn-span:6;
+        --mceColumn-alignSelf-mobile:center;
+        --mceColumn-alignSelf-tablet:center">
+
+
+    <!--area textos--> <div class="mceText text-align-center">   
+    <h3>Singed possui 2 modos de Early game: o de Proxy e o lane phase. </h3><br><br><br>
+    
+    <a name="rotas"></a>
+    <h2>Lane Fase </h2><br><br>
+
+   
+    <div style="text-align: left;">
+        Se você está contra um campeão de corpo a corpo que não pode vence-lo (ou seja, a maioria), você pode querer ficar na frente de sua torre e lutar com ele. Afaste-o de seus minions usando seu&nbsp;
+        <img height="16" src="https://i.imgur.com/0fLSN4o.png" style="border: none; margin: 0px; max-width: 685px; padding: 0px; vertical-align: middle;" width="16" title="0fLSN4o" alt="0fLSN4o">&nbsp;<span style="color: green;">Rastro de Veneno</span> e&nbsp;<img height="16" src="https://i.imgur.com/fT32pS6.png"
+         style="border: none; margin: 0px; max-width: 685px; padding: 0px; vertical-align: middle;" width="16" title="fT32pS6" alt="fT32pS6">&nbsp;Lançar sempre que puder. Use o&nbsp;<img height="16" src="https://i.imgur.com/UvuxJ8G.png" style="border: none; margin: 0px; max-width: 685px; padding: 0px; vertical-align: middle;" width="16" title="UvuxJ8G" alt="UvuxJ8G">&nbsp;<span style="color: #749745;">Mega Adesivo</span> como uma ferramenta de ameaças.<br>
+        <br>
+        As pessoas ficam preocupadas com o fato do que você estar prestes a fazer. Use os seus medos para dominar a lane ... mas não se esqueça de irritá-los o tempo todo. Torne-os loucos para que eles tentem iniciar uma troca com você, já que esse será um cenário onde você quase sempre ganhará.<br>
+        <br></div><br><br><br>
+
+        <h2> Controle de mana</h2>
+        
+    <p>Sempre tente no niveis baixo com o singed, usar o Q &nbsp;
+        <img height="16" src="https://i.imgur.com/0fLSN4o.png" 
+        style="border: none; margin: 0px; max-width: 685px; padding: 0px; vertical-align: middle;" 
+        width="16" title="0fLSN4o" alt="0fLSN4o">&nbsp;
+        com economia. Sempre usando o Q na wave e logo em seguida desligando. NUNCA deixe sempre ligado, sempre desligue.<br><br><br><br><br>
+
+        <h2>Trocas na Lane</h2>
+        Tente ser chato na rota abuse sempre do seu auto ataque que é bastante forte. (Sempre use o seu E&nbsp;<img height="16" src="https://i.imgur.com/fT32pS6.png" 
+        style="border: none; margin: 0px; max-width: 685px; padding: 0px; vertical-align: middle;" 
+        width="16" title="fT32pS6" alt="fT32pS6">&nbsp;, o dano dele é muito forte não subestime.)<br><br>
+
+
+        Sempre troque com o singed, dando E com o veneno Ligado. (seja bastante agressivo com o level 6 e ult disponivel.</p></div>
+    <div class="mceText text-align-center"><p></p></div><br><br><br>
+    <div class="mceText text-align-center">
+        <h2>Vantagens e desvantagens</h2>
+    </div>
+    <div class="mceText text-align-rigth">
+        <ul>
+            <li>Fraco contra inimigos Rangeds</li>
+            <li>Wave clear forte</li>
+            <li>Forte contra melees</li>
+            <li>Versátil e tranquilo de se jogar</li>
+            <li>Fraco até o nível 6</li>
+        </ul>
+    </div>
+
+    <div>
+        <hr color="#00ff00" width="100px"> <br><br><br>
+    </div>
+    <div  class="mceText text-align-center">
+        <a name="laneproxy"></a>
+    <h2>Singed Proxy</h2>
+
+    </div>
+
+
+
+
+    <div class="mceText text-align-center">
+    Quando Singed opta por começar o jogo fazendo proxy,
+    ele pode obter facilmente as 3 primeiras waves de minions,
+    se matar (caso ache necessário e menos arriscado)
+    e voltar da base com minions e item em vantagem ao seu inimigo. 
+    Proxy é bastante popular e é feito em quase todas partidas quando se joga de Singed.<br>
+    <br>
+    Para começar o proxy no nível 1, você deve esperar na frente do 
+    <span style="color: purple;">Arauto</span> até os minions nascerem,
+     e então caminhe entre as torres externas e internas dos inimigos.
+      Certifique-se de começar sempre com&nbsp;
+      <img height="16" src="https://www.mobafire.com/images/item/the-dark-seal.gif" 
+      style="border: none; margin: 0px; max-width: 685px; padding: 0px; vertical-align: middle;" 
+      width="16" title="the-dark-seal" alt="the-dark-seal">&nbsp;
+      <span style="color: #f3f3f3;">Lacre negro</span> e&nbsp;
+      <img height="16" src="https://www.mobafire.com/images/item/refillable-potion.gif" 
+      style="border: none; margin: 0px; max-width: 685px; padding: 0px; vertical-align: middle;" 
+      width="16" title="refillable-potion" alt="refillable-potion">&nbsp;
+      <span style="color: #f3f3f3;">Poção de refil</span>,
+       e não de&nbsp;<img height="16" src="https://www.mobafire.com/images/item/corrupting-potion.gif"
+        style="border: none; margin: 0px; max-width: 685px; padding: 0px; vertical-align: middle;" 
+        width="16" title="corrupting-potion" alt="corrupting-potion">&nbsp;
+        <span style="color: #f3f3f3;">Poção corrupta</span>, 
+        porque o seu proxy no nivel 1 significa que você voltará para a lane com ambos,
+         e o AP do lacre negro é melhor para ajudar o seu proxy do que 3 poção de cura 
+         (Já que geralmente você usa apenas 1 poção de cura durante todas as 3 waves, e usa 2 se o toplaner inimigo tentar contestar o seu proxy logo no começo).<br>
+    <br>
+    A ideia é poder substituir as suas primeiras 2 waves entre suas torres t1 e t2 e, em seguida, eliminar a terceira wave entre a t2 e a t3. Esta é a maneira mais segura de proxy, mais se vai levar a prática. Você sempre deve se executar-se já que provavelmente o jungler inimigo aparecerá para tentar lhe matar, devido ao tempo da terceira wave o jungle já esta se rotacionando em um campo proximo a você e logo ele verá a sua vida e irá te gankar. Depois de se matar, você pode voltar para a lane. Você não precisa usar o&nbsp;<img height="16" src="https://www.mobafire.com/images/summoner-spell/teleport.png" style="border: none; margin: 0px; max-width: 685px; padding: 0px; vertical-align: middle;" width="16" title="teleport" alt="teleport">&nbsp;<span style="color: purple;">Teleporte</span>, uma vez que você só vai perder 1 minion melee no momento em que você voltar para a lane, pois você limpou a terceira wave próxima a base inimiga entre a t2 e t3. Você só usará o&nbsp;<img height="16" src="https://www.mobafire.com/images/summoner-spell/teleport.png" style="border: none; margin: 0px; max-width: 685px; padding: 0px; vertical-align: middle;" width="16" title="teleport" alt="teleport">&nbsp;<span style="color: purple;">Teleporte</span> se você tiver sido morto por um inimigo logo no começo.<br>
+
+    </div>
+    <a name="quando"></a>
+    <div  class="mceText text-align-center">
+        
+    <h2 style= color:#749745>Quando fazer Proxy?</h2>
+
+    </div>
+
+     <div class="mceImage"  style="--mceImage-width:1215px">
+    <picture>  
+    <img alt="" src="imagens\CORINGA.jpg" role="presentation">
+    </picture>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
+
+    
+    <div  class="mceText text-align-center">
+        
+        <h2 style= color:#f1c915>Obrigado pela atenção e boa sorte nos jogos!</h2>
+    
+        </div>
+    
+
+    <div class="mceImage"  style="--mceImage-width:1215px">
+    <picture>  
+    <img alt="" src="imagens\singedap.jpg" role="presentation">
+    </picture>
+        
+
+
+        <div class="mceText text-align-center">   
+        <h2>Me de um 10 professor </h2>
+        <p>Trabalho feito com carinho e no intuito das pessoas aprenderem a jogar de singed</p></div>
+        <div class="mceText text-align-center"><p></p></div></div></div></div></div>
+            
+            
+        <div data-cookie-banner="" id="" 
+        class="mceRow mceRow--noSpacing mceRow--adjustMargin mceRow--maxWidth mceRow--fixedBottom mceRow--hidden mceRow--singleColumn-mobile mceRow--singleColumn-tablet" 
+        style="--mceRow-zIndex:10"></div>
+        
+        <div id="section_bb6ac60b65e7d039d4fed917407eb457"
+        class="mceRow mceRow--isFullBleed mceRow--noSpacing mceRow--adjustMargin mceRow--singleColumn-mobile mceRow--singleColumn-tablet">
+        
+        <div class="mceColumn justify-items-center justify-self-center"
+        style="--mceColumn-spacing:0;
+        --mceColumn-paddingTop:0;
+        --mceColumn-paddingRight:0;
+        --mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0">
+        
+        <p><em>
+        <strong>Está do seu agrado?</strong>
+        </em></p></div>
+       
+       
+        <div class="mceText"><p></p> </div>
+        <div class="mceRow mceRow--isFullBleed mceRow--adjustMargin mceRow--singleColumn-mobile mceRow--singleColumn-tablet" 
+        style="--mceRow-paddingTop:0;
+        --mceRow-paddingRight:0;
+        --mceRow-paddingBottom:0;
+        --mceRow-paddingLeft:0">
+        
+        <div class="mceColumn justify-items-start justify-self-start" 
+        style="--mceColumn-paddingTop:0;
+        --mceColumn-paddingRight:0;
+        --mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0;
+        --mceColumn-alignSelf-mobile:flex-start;
+        --mceColumn-alignSelf-tablet:flex-start">
+        
+        <div class="mceClusterLayout" 
+        style="--mceClusterLayout-alignment:center;
+        --mceClusterLayout-spacing:2;--mceClusterLayout-spacing-mobile:1"></div></div></div></div>
+  
+        <div class="mceColumn" 
+        style="--mceColumn-paddingTop:0;
+        --mceColumn-paddingRight:0;
+        --mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0;
+        --mceColumn-span:3;
+        --mceColumn-paddingTop-mobile:1.6;
+        --mceColumn-paddingTop-tablet:1.6">
+        
+        
+    <nav class="mceClusterLayout" 
+    style="--mceClusterLayout-alignment:center;
+    --mceClusterLayout-spacing:1">
+    </nav></div></div>
+        
+        
+        <!--area final--> <div class="mceRow mceRow--isFullBleed mceRow--singleColumn-mobile mceRow--singleColumn-tablet" 
+        style="--mceRow-paddingRight:0;
+        --mceRow-paddingLeft:0">
+        
+        
+        <div class="mceColumn justify-items-center-mobile justify-self-center-mobile" 
+        style="--mceColumn-paddingTop:2;
+        --mceColumn-paddingRight:0;
+        --mceColumn-paddingLeft:0;
+        --mceColumn-span:9;
+        --mceColumn-paddingTop-mobile:1;
+        --mceColumn-paddingRight-mobile:1;
+        --mceColumn-paddingLeft-mobile:1;
+        --mceColumn-alignSelf-mobile:center">
+
+        
+
+        <div class="mceText mceText--isLogo">
+        <p></p>
+        <h4>TRABALHO -Guilherme lima</h4></div>
+
+        <div class="mceClusterLayout" style="--mceClusterLayout-alignment:center;--mceClusterLayout-spacing:1">
+        <div class="mceClusterLayout-item">
+        <div class="mceText text-align-center-mobile" style="--mceText-fontSize:0.8"><p></p></div></div>
+        <div class="mceClusterLayout-item">
+        <div class="mceText text-align-center-mobile" style="--mceText-fontSize:0.8"><p></p>
+        </div></div></div></div>
+        
+        
+        <div class="mceColumn justify-items-center justify-self-center"
+        style="--mceColumn-paddingTop:0;--mceColumn-paddingRight:0;--mceColumn-paddingBottom:0;
+        --mceColumn-paddingLeft:0;--mceColumn-span:3;--mceColumn-alignSelf:end;
+        --mceColumn-paddingTop-mobile:1.6;--mceColumn-alignSelf-mobile:center;
+        --mceColumn-paddingTop-tablet:1.6;--mceColumn-alignSelf-tablet:center">
+
+        <div style="text-align:center;margin-bottom:-3px;
+        margin-left:4px;
+        font-size:12px;
+        font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;color:#241c15">
+        Trabalho feito por Guilherme Lima
+        </div></div></div></div></div></div></div></div></div>
+   
+    
+    </body></html>
